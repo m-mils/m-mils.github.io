@@ -54,7 +54,7 @@ Der undersøges i porteføljen hvorvidt Computer Vision teknikker muliggøre eff
 ## Systemoversigt <a name="Systemoversigt"></a>
 <hr>
 
-![[unnamed2.jpg|300]]
+![](unnamed2.jpg)
 ### Kameraopsætning <a name="Kameraopsætning"></a>
 Et fast top-down kamera fanger håndbevægelser i et forud defineret interaktions område.
 
@@ -235,23 +235,23 @@ Den oprindelige tankegang bag Computer vision systemet var at ved hjælp af cont
 
 Denne tankegang virkede kun med et billede som er vist forneden 
 
-![[Billeder/originalimg.jpg|200]] ![[Billeder/grayscaleimg.jpg|200]]![[Billeder/edgesimg.jpg|200]]![[Billeder/overlayig.jpg|200]]![[Billeder/binaryimg.jpg|200]]![[Billeder/contoursimg.jpg|200]]![[Billeder/labeledimg.jpg|200]]
+![](Billeder/originalimg.jpg) ![](Billeder/grayscaleimg.jpg)] ![](Billeder/edgesimg.jpg) ![](Billeder/overlayig.jpg) ![](Billeder/binaryimg.jpg) ![](Billeder/contoursimg.jpg) ![](Billeder/labeledimg.jpg)
 
 Her illustreres den samme process på et andet billede hvor fingerne ikke er identificeret korrekt 
 
-![[ogbad.png|200]]![[gfbad.png|200]]![[edgbad.png|200]]
-![[oibad.png|200]]![[bbad.png|200]]![[opibad.png|200]]
-![[resbad.png|200]]
+![](ogbad.png) ![](gfbad.png) ![](edgbad.png)
+![](oibad.png) ![](bbad.png) ![](opibad.png)
+![](resbad.png)
 Den oprindelige tankegang bag systemet virkede helt op til det sidste punkt hvor fingerene skulle identificeres. Problemet med at identificere hver finger var at convex hull defects ikke altid fandt alle fingerne, eller at en finger fik flere punkter hvilket resulterede i forkert identifikation af fingerne. for at løse dette problem blev SIFT afprøvet. Tankegangen bag dette var at ved at have en SIFT template af kun fingerspidserne ville det være muligt at kombinere SIFT Key points med punkterne for Convex Hull defects, hvilket ville resultere i at det kun var fingerne der blev tildelt et defects punkt.
 
-![[siftimg.jpg|400]]
+![](siftimg.jpg)
 
 På sift billedet for oven ses det at det ikke kun er fingerspidserne der bliver identificeret som key points, dette kunne være skyld at de to billeder der bliver matchet begge kun indholder sort eller hvidt. På trods af dette kan det ses at hver finger har fået sin egen key point, men dette resulterede ofte alligevel i forkert identification af fingerne. Da både SIFT key points of convex hull defects har flere matches kunne SIFT ikke bruges til at identificere fingerne i dette system. 
 
 Computer Vision systemet havde også et problem med billede belysning. hvis billedet ikke havde god nok belysning ville systemet fejle med at identificere fingerne. Ved at kigge på billederne forneden er hånden tydelig i det oprindelige billede, selv efter nogle Computer vision ændringer er hånden stadig tydelig. Overlay billedet bliver mere sløret i forhold til eksemplet for oven hvor overlay billedet viser en tydelig hånd. Da tresholdet brugt til at generere det binære billede er sat for højt er det kun en meget lille del af hånden der forbliver i billedet, resten er fjernet. Da contours findes på det binære billede er det kun den lille del af hånden der bliver tegnet op hvilket resultere i en convex hull illustreret for neden. Det kan ses at systemet kun har fundet et punkt, her ses den tilfældige fordeling af punkter også da punktet bliver tildelt et tilsynladende vilkårlig finger, i dette tilfælde index.
 
-![[Billeder/originalBad.jpg|200]]![[Billeder/grayscaleBad.jpg|200]]![[Billeder/edgesBad.jpg|200]]
-![[Billeder/overlayBad.jpg|200]]![[Billeder/binaryBad.jpg|200]]![[Billeder/contoursBad.jpg|200]]
+![[Billeder/originalBad.jpg|200]] ![[Billeder/grayscaleBad.jpg|200]] ![[Billeder/edgesBad.jpg|200]]
+![[Billeder/overlayBad.jpg|200]] ![[Billeder/binaryBad.jpg|200]] ![[Billeder/contoursBad.jpg|200]]
 
 ![[Billeder/labledBad.jpg|200]]
 
