@@ -14,38 +14,41 @@ unconventional solutions where others may get stuck.
 
 ### Education
 ***IT-teknolog AK - UCL Erhvervsakademi og Professionshøjskole, Odense***
+
 2023 - 2025
 ***Learning outcomes:***
 
-Embedded Systems & Hardware Design
-• Designed and built systems using microcontrollers and analog/digital electronics
-• Developed reliable, testable embedded systems for data collection and device control
-• Gained practical experience with IoT device design and communication protocols
+***Embedded Systems & Hardware Design***
+* Designed and built systems using microcontrollers and analog/digital electronics
+* Developed reliable, testable embedded systems for data collection and device control
+* Gained practical experience with IoT device design and communication protocols
 
-Software Development & Scripting
-• Developed software in C for embedded and IoT systems
-• Used Python for automation, scripting, and network configuration tasks
-• Implemented data pipelines and cloud-based processing systems
+***Software Development & Scripting***
+* Developed software in C for embedded and IoT systems
+* Used Python for automation, scripting, and network configuration tasks
+* Implemented data pipelines and cloud-based processing systems
 
-Project Management
-• Led and contributed to technical projects from concept to delivery
-• Applied project management tools for resource planning, risk assessment, and
-budgeting
-• Gained hands-on experience managing people and timelines in real-world scenarios
-Internet of Things (IoT) Systems
-• Built end-to-end IoT systems: from sensor data collection to cloud-based data
-processing
-• Focused on IT security across the entire IoT ecosystem
-• Progressed from basic component work to advanced systems integration in projects
+***Project Management***
+* Led and contributed to technical projects from concept to delivery
+* Applied project management tools for resource planning, risk assessment, and budgeting
+* Gained hands-on experience managing people and timelines in real-world scenarios
+
+***Internet of Things (IoT) Systems***
+* Built end-to-end IoT systems: from sensor data collection to cloud-based data processing
+* Focused on IT security across the entire IoT ecosystem
+* Progressed from basic component work to advanced systems integration in projects
 
 ---
 
 ### Professional experience 
 ***Webmaster - DanskeServiceYdelser***
+
 2019 - 2022
+
 ***Tasks***
 Development of website and platform. Daily operation of the website. Ongoing
 maintenance and updating of the website.
+
 ***What did I become particularly good at***
 Development of a platform that works on all devices such as PC, tablet and phones.
 Front- and backend website development divided into levels
