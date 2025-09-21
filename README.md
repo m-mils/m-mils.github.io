@@ -1,4 +1,4 @@
-# m-mils.github.io
+# Maxim Milenkovic
 
 ## portfolio
 something about me, some kind of introduction :)
