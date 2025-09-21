@@ -12,7 +12,7 @@ Computer Vision
 
 ###### Afleveringfrist
 21/01/2025 | 12:00 
-![][Billeder/Picture1.png|150]
+![][Billeder/Picture1.png]
 
 
 
