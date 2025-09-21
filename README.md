@@ -1,6 +1,4 @@
-# Maxim Milenkovic
-
-## portfolio
+# Portfolio
 Resourceful and self-driven developer with over a decade of programming experience in
 Python, C++, PHP, and HTML/CSS, along with six years of hands-on work in electronics
 and embedded systems. Recently graduated with an AP degree in IT Technology and
@@ -12,7 +10,7 @@ unconventional solutions where others may get stuck.
 
 ---
 
-### Education
+## Education
 ***IT-teknolog AK - UCL Erhvervsakademi og Professionshøjskole, Odense***
 
 2023 - 2025
@@ -40,7 +38,7 @@ unconventional solutions where others may get stuck.
 
 ---
 
-### Professional experience 
+## Professional experience 
 ***Webmaster - DanskeServiceYdelser***
 
 2019 - 2022
@@ -54,15 +52,15 @@ Development of a platform that works on all devices such as PC, tablet and phone
 Front- and backend website development divided into levels
 
 ---
-### Projects
+## Projects
 
-#### Hand Tracking and Gesture Recognition
+### Hand Tracking and Gesture Recognition
 This project focuses on the development of a real-time hand tracking and gesture recognition system, designed to enable interaction with a computer within a defined interaction area. The system recognizes four primary gestures: Point, Pinch, Open Hand, and Swipe.
 
 The project also includes studies on the effectiveness of Computer Vision and Machine Learning in achieving accurate gesture recognition.
 
 
 
-#### LiDAR system
+### LiDAR system
 * ***this*** and that
 * that and ***this***
