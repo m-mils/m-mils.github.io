@@ -53,6 +53,7 @@ Front- and backend website development divided into levels
 ## Projects
 
 ### Hand Tracking and Gesture Recognition
+![](assets/img/ar_interaction_img.png)
 
 This project involved the design and implementation of a real-time hand tracking and gesture recognition system for natural interaction within a defined workspace. The system recognizes four gestures: Point, Pinch, Open Hand, and Swipe, making it suitable for applications in Augmented Reality (AR) where controller-free interaction is key.
 
