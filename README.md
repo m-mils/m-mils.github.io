@@ -53,10 +53,42 @@ Front- and backend website development divided into levels
 ## Projects
 
 ### Hand Tracking and Gesture Recognition
-This project focuses on the development of a real-time hand tracking and gesture recognition system, designed to enable interaction with a computer within a defined interaction area. The system recognizes four primary gestures: Point, Pinch, Open Hand, and Swipe.
 
-The project also includes studies on the effectiveness of Computer Vision and Machine Learning in achieving accurate gesture recognition.
+This project involved the design and implementation of a real-time hand tracking and gesture recognition system for natural interaction within a defined workspace. The system recognizes four gestures: Point, Pinch, Open Hand, and Swipe, making it suitable for applications in Augmented Reality (AR) where controller-free interaction is key.
 
+#### Project Highlights
+
+***System Design***
+
+* Implemented a top-down camera setup capturing hand movements within a calibrated interaction frame.
+
+* Built a pipeline combining Computer Vision (CV) and Machine Learning (ML) approaches for gesture recognition.
+
+***Computer Vision Techniques***
+
+* Applied preprocessing methods (grayscale conversion, histogram equalization, Gaussian blur, bilateral filtering) to improve robustness.
+
+* Used Canny edge detection, contour detection, convex hull, and convexity defect analysis to isolate and analyze hand shape.
+
+* Developed rules based on convex hull angles and line segment lengths to classify gestures (e.g., distinguishing between Open Hand and Pinch).
+
+* Implemented gesture dynamics detection: Swipe was recognized through frame-to-frame displacement of the convex hull.
+
+***Machine Learning Approach***
+
+* Built and trained a Convolutional Neural Network (CNN) in TensorFlow using a custom dataset of labeled gesture images.
+
+* Model architecture included multiple Conv2D and pooling layers, with a final dense layer for classification into Open Hand, Pinch, and Point.
+
+* Tested different activation functions, with sigmoid performing best for multi-class gesture classification.
+
+#### Results
+
+***Computer Vision:*** Delivered robust gesture recognition and hand tracking, though performance was sensitive to lighting conditions.
+
+***Machine Learning:*** Successfully classified gestures from static images but lacked temporal awareness (e.g., could not detect Swipe).
+
+Comparative evaluation showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
 
 
 ### LiDAR system
