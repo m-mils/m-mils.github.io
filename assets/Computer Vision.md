@@ -329,25 +329,25 @@ Machine Learning modellen blev afprøvet med sigmoid, relu og softmax output lay
 
 #### Open hand <a name="Open_hand1"></a>
 Open hand som illustreres forneden er detekteret på baggrund af at der er mellem 5 og 10 punkter i convex hull figuren. 
-![](Billeder/CV_OpenHand.jpg|400)
+![](Billeder/CV_OpenHand.jpg)
 
 #### Pinch <a name="Pinch1"></a>
 Pinch som illustreres forneden er detekteret på baggrund af længen af den røde linje mellem tommelfingeren og pegefingeren. Yderligere ses der at der er samme mændge punkter som i Open Hand eksemplet.
-![](Billeder/CV_Pinch.jpg|400)
+![](Billeder/CV_Pinch.jpg)
 
 #### Point <a name="Point1"></a>
 Det kan ses ud fra billedet at selve formen af convex hull er anderledes i forhold til de andre gestures. Point gesture detekteres i forhold til vinkel størrelse på en vinkel i modsætning til linje længde mellem to vinkler som de to andre gestures.
-![](Billeder/CV_Point.jpg|400)
+![](Billeder/CV_Point.jpg)
 
 #### Swipe <a name="Swipe1"></a>
 Swipe gesture illustreres her som et enkelt billede. Swipe gesture analysere placeringen af Convex  hull, når der er en ændring i placering af convex hull på mere end en definerede grænse, på et antal frames. Billedet viser ændringen af placering af hånden fra billedet Open Hand til billedet swipe.
-![](Billeder/CV_Swipe.png|400)
+![](Billeder/CV_Swipe.png)
 
 
 ### Machine Learning <a name="Machine Learning3"></a>
 #### Open Hand <a name="Open_hand2"></a>
 I open Hand kan det ses at modellen er i tvivl om det er Open hand eller pinch, selvom den korrekt har genkendt Open hand gesture.
-![](Billeder/ML_OpenHand.jpg|400)
+![](Billeder/ML_OpenHand.jpg)
 
 #### Pinch <a name="Pinch2"></a>
 Her er Pinch gesture og open hand gesture igen meget tæt, dog er modellen mere overbevist for at gesturen er pinch.
