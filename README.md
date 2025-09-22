@@ -1,4 +1,4 @@
-# Portfolio
+# About me
 Resourceful and self-driven developer with over a decade of programming experience in
 Python, C++, PHP, and HTML/CSS, along with six years of hands-on work in electronics
 and embedded systems. Recently graduated with an AP degree in IT Technology and
@@ -10,7 +10,7 @@ unconventional solutions where others may get stuck.
 
 ---
 
-## Education
+# Education
 ***IT-teknolog AK - UCL Erhvervsakademi og Professionshøjskole, Odense***
 
 2023 - 2025
@@ -38,26 +38,29 @@ unconventional solutions where others may get stuck.
 
 ---
 
-## Professional experience 
+# Professional experience 
 ***Webmaster - DanskeServiceYdelser***
+
 2019 - 2022
+
 ***Tasks***
 Development of website and platform. Daily operation of the website. Ongoing
 maintenance and updating of the website.
 
 ***What did I become particularly good at***
+
 Development of a platform that works on all devices such as PC, tablet and phones.
 Front- and backend website development divided into levels
 
 ---
-## Projects
+# Projects
 
-### Hand Tracking and Gesture Recognition
+## Hand Tracking and Gesture Recognition
 ![](assets/img/ar_interaction_img.png)
 
 This project involved the design and implementation of a real-time hand tracking and gesture recognition system for natural interaction within a defined workspace. The system recognizes four gestures: Point, Pinch, Open Hand, and Swipe, making it suitable for applications in Augmented Reality (AR) where controller-free interaction is key.
 
-#### Project Highlights
+### Project Highlights
 
 ***System Design***
 * Implemented a top-down camera setup capturing hand movements within a calibrated interaction frame.
@@ -80,7 +83,7 @@ This project involved the design and implementation of a real-time hand tracking
 
 * Tested different activation functions, with sigmoid performing best for multi-class gesture classification.
 
-#### Results
+### Results
 
 ***Computer Vision:*** Delivered robust gesture recognition and hand tracking, though performance was sensitive to lighting conditions.
 
@@ -89,6 +92,6 @@ This project involved the design and implementation of a real-time hand tracking
 ***Comparative evaluation*** showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
 
 
-### LiDAR system
+## LiDAR system
 * ***this*** and that
 * that and ***this***
