@@ -88,7 +88,7 @@ This project involved the design and implementation of a real-time hand tracking
 
 ***Machine Learning:*** Successfully classified gestures from static images but lacked temporal awareness (e.g., could not detect Swipe).
 
-Comparative evaluation showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
+***Comparative evaluation*** showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
 
 
 ### LiDAR system
