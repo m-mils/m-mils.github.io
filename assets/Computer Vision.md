@@ -42,7 +42,7 @@ Der undersøges i porteføljen hvorvidt Computer Vision teknikker muliggøre eff
 ## Systemoversigt <a name="Systemoversigt"></a>
 <hr>
 
-![](unnamed2.jpg=250x)
+![](unnamed2.jpg)
 
 ### Kameraopsætning <a name="Kameraopsætning"></a>
 Et fast top-down kamera fanger håndbevægelser i et forud defineret interaktions område.
