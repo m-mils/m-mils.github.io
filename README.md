@@ -61,23 +61,31 @@ This project involved the design and implementation of a real-time hand tracking
 
 ***System Design***
 * Implemented a top-down camera setup capturing hand movements within a calibrated interaction frame.
+  
 * Built a pipeline combining Computer Vision (CV) and Machine Learning (ML) approaches for gesture recognition.
 
 ***Computer Vision Techniques***
 * Applied preprocessing methods (grayscale conversion, histogram equalization, Gaussian blur, bilateral filtering) to improve robustness.
+
 * Used Canny edge detection, contour detection, convex hull, and convexity defect analysis to isolate and analyze hand shape.
+
 * Developed rules based on convex hull angles and line segment lengths to classify gestures (e.g., distinguishing between Open Hand and Pinch).
+
 * Implemented gesture dynamics detection: Swipe was recognized through frame-to-frame displacement of the convex hull.
 
 ***Machine Learning Approach***
 * Built and trained a Convolutional Neural Network (CNN) in TensorFlow using a custom dataset of labeled gesture images.
+
 * Model architecture included multiple Conv2D and pooling layers, with a final dense layer for classification into Open Hand, Pinch, and Point.
+
 * Tested different activation functions, with sigmoid performing best for multi-class gesture classification.
 
 #### Results
 
 ***Computer Vision:*** Delivered robust gesture recognition and hand tracking, though performance was sensitive to lighting conditions.
+
 ***Machine Learning:*** Successfully classified gestures from static images but lacked temporal awareness (e.g., could not detect Swipe).
+
 ***Comparative evaluation*** showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
 
 
