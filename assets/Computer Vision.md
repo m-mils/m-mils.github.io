@@ -5,15 +5,6 @@
 
 ###### Forfatter
 Maxim Milenkovic
-###### Uddannelse 
-IT-Teknologi
-###### ValgFag
-Computer Vision
-
-###### Afleveringfrist
-21/01/2025 | 12:00 
-![](Billeder/Picture1.png)
-
 
 
 <div style="page-break-after: always;"></div>
@@ -55,6 +46,7 @@ Der undersøges i porteføljen hvorvidt Computer Vision teknikker muliggøre eff
 <hr>
 
 ![](unnamed2.jpg)
+
 ### Kameraopsætning <a name="Kameraopsætning"></a>
 Et fast top-down kamera fanger håndbevægelser i et forud defineret interaktions område.
 
