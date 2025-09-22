@@ -250,14 +250,14 @@ På sift billedet for oven ses det at det ikke kun er fingerspidserne der bliver
 
 Computer Vision systemet havde også et problem med billede belysning. hvis billedet ikke havde god nok belysning ville systemet fejle med at identificere fingerne. Ved at kigge på billederne forneden er hånden tydelig i det oprindelige billede, selv efter nogle Computer vision ændringer er hånden stadig tydelig. Overlay billedet bliver mere sløret i forhold til eksemplet for oven hvor overlay billedet viser en tydelig hånd. Da tresholdet brugt til at generere det binære billede er sat for højt er det kun en meget lille del af hånden der forbliver i billedet, resten er fjernet. Da contours findes på det binære billede er det kun den lille del af hånden der bliver tegnet op hvilket resultere i en convex hull illustreret for neden. Det kan ses at systemet kun har fundet et punkt, her ses den tilfældige fordeling af punkter også da punktet bliver tildelt et tilsynladende vilkårlig finger, i dette tilfælde index.
 
-![](Billeder/originalBad.jpg|200) ![](Billeder/grayscaleBad.jpg|200) ![](Billeder/edgesBad.jpg|200)
-![](Billeder/overlayBad.jpg|200) ![](Billeder/binaryBad.jpg|200) ![](Billeder/contoursBad.jpg|200)
+![](Billeder/originalBad.jpg) ![](Billeder/grayscaleBad.jpg) ![](Billeder/edgesBad.jpg)
+![](Billeder/overlayBad.jpg) ![](Billeder/binaryBad.jpg) ![](Billeder/contoursBad.jpg)
 
-![](Billeder/labledBad.jpg|200)
+![](Billeder/labledBad.jpg)
 
 Da det er svært at tage højde for billede belysning er der fokuseret på at løse problemet med de vilkårlig defects. Problemet løses ved at undgå at analysere defects punkterne, men ved at analysere vinklerne i convex hull figuren samt lægen af linje stykkerne mellem vinkler. Dette gav et meget stabilt resultat da det er selve convex hull der tages højde for i modsætning til defects. convex hull illustreres forneden
 
-![](Billeder/convexhull.jpg|400)
+![](Billeder/convexhull.jpg)
 
 Her kan det ses at convex hull har en vis mængde linje stykker, ud fra dette tegnes hvert linje stykke op i en unik farve som er defineret i koden 
 
@@ -351,11 +351,11 @@ I open Hand kan det ses at modellen er i tvivl om det er Open hand eller pinch, 
 
 #### Pinch <a name="Pinch2"></a>
 Her er Pinch gesture og open hand gesture igen meget tæt, dog er modellen mere overbevist for at gesturen er pinch.
-![[Billeder/ML_Pinch.jpg|400]]
+![](Billeder/ML_Pinch.jpg)
 
 #### Point <a name="Point2"></a>
 Det kan ses at Machine Learning modellen i stor grad er overbevist om at gesturen er point
-![](Billeder/ML_Point.jpg|400)
+![](Billeder/ML_Point.jpg)
 
 
 #### Swipe <a name="Swipe2"></a>
