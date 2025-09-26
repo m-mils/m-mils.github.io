@@ -93,5 +93,4 @@ This project involved the design and implementation of a real-time hand tracking
 
 
 ## LiDAR system
-* ***this*** and that
-* that and ***this***
+
