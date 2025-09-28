@@ -1,4 +1,6 @@
-# About me
+# Portfolio
+
+## About me
 Resourceful and self-driven developer with over a decade of programming experience in
 Python, C++, PHP, and HTML/CSS, along with six years of hands-on work in electronics
 and embedded systems. Recently graduated with an AP degree in IT Technology and
@@ -7,6 +9,8 @@ projects. Skilled across domains including robotics, embedded systems, machine
 learning, web development, and 3D modeling using Blender and Fusion 360. Known for
 strong problem-solving instincts and an ability to identify subtle issues or
 unconventional solutions where others may get stuck.
+
+
 
 ---
 
@@ -44,6 +48,7 @@ unconventional solutions where others may get stuck.
 2019 - 2022
 
 ***Tasks***
+
 Development of website and platform. Daily operation of the website. Ongoing
 maintenance and updating of the website.
 
