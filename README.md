@@ -92,5 +92,37 @@ This project involved the design and implementation of a real-time hand tracking
 ***Comparative evaluation*** showed that CV was more reliable for AR integration, while ML offered strong potential when combined with better datasets.
 
 
-## LiDAR system
+## LiDAR Scanning System
+![](assets/img/lidar_system_intro.png)
+**Overview**  
+Developed a complete LiDAR-based 3D scanning system (hardware + software) capable of generating accurate point clouds of real-world environments for virtual inspection and measurement. The project built upon an initial prototype (LiDAR v1) and delivered an optimized second version (LiDAR v2) with faster scanning, higher accuracy, and added functionality for analysis.  
+
+**Key Contributions**  
+- **Hardware Development**  
+  - Designed and built a custom LiDAR scanner using ESP32 microcontroller and Arduino.  
+  - Upgraded from a single-point TF-Luna sensor (LiDAR v1) to a 360° LiDAR sensor (LiDAR v2), reducing scan time from **87 minutes → ~11 minutes**.  
+  - Designed the scanner enclosure in Fusion 360 and 3D printed custom parts.  
+  - Implemented battery power system with dual 18650 Li-ion cells for higher torque servo support.  
+  - Corrected mechanical tilt errors via software calibration (+2.6° compensation).  
+
+- **Software Development**  
+  - Built a desktop application in **C++ with Qt and OpenGL** for real-time point cloud visualization.  
+  - Implemented **point cloud import/export** and optimized memory usage (reduced peak RAM from **775 MB → 281 MB**).  
+  - Achieved dataset loading time improvements (**115 sec → 5 sec for ~188k points**).  
+  - Developed interactive **measurement tool** (raycasting + 3D vector math) to measure distances with ~6.5 cm error (within sensor tolerance).  
+  - Implemented **point cloud slicing tool** using OpenGL shaders for isolating regions of interest.  
+  - Structured application into modular C++ classes for maintainability (e.g., mainView, treeView, tool classes).  
+
+- **Testing & Results**  
+  - Validated measurement accuracy with real-world comparison (laser vs LiDAR).  
+  - Verified reconstruction precision: LiDAR v2 point clouds clearly identify walls, desks, and objects.  
+  - All project requirements (accuracy, performance, usability) were met or exceeded.  
+
+**Technologies Used**  
+- Hardware: ESP32, Arduino, TF-Luna LiDAR, 360° LiDAR sensor, 18650 Li-ion battery system, Fusion 360, 3D printing  
+- Software: C++, Qt, OpenGL, GLSL shaders, Python (data preprocessing)  
+- Skills: Embedded programming, 3D graphics programming, real-time point cloud rendering, hardware/software integration, optimization  
+
+**Outcome**  
+Delivered a fully functional LiDAR scanning system capable of creating accurate 3D models of environments, supporting measurements and analysis for scenarios where manual inspection is not feasible (e.g., sterile or inaccessible environments).  
 
