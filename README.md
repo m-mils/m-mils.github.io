@@ -1,12 +1,9 @@
 # Portfolio
 
 ## About me
-Resourceful and self-driven developer with over a decade of programming experience in Python, PHP and HTML/CSS, along with six years of hands-on experience in C++, electronics and embedded systems. Recently graduated with an AP degree in IT Technology, with practical experience across robotics, embedded systems, machine learning, web development, and 3D modeling (Blender, Fusion 360).
+I bridge the gap between technology and real-world impact. With hands-on experience in software, embedded systems, and machine learning, I turn complex problems into practical solutions.
 
-I have a track record of solving technical challenges, spotting subtle issues and finding unconventional solutions when standard approaches fall short. Comfortable working independently or as part of a team, I thrive in projects that demand both breadth and depth—connecting software, hardware and design into functional results.
-
-I’m eager to contribute to projects where technical rigor and creative problem-solving matter, especially those that push boundaries in engineering, development, and applied technology.
-
+I thrive both building systems and coordinating projects, connecting people, processes, and technology to deliver results. Curious, solution-focused, and collaborative, I’m motivated by opportunities where technical insight meets tangible outcomes.
 
 
 ---
