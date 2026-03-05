@@ -1,8 +1,7 @@
 # Portfolio
 
 ## About me
-I bridge the gap between technology and real-world impact. With hands-on experience in software, embedded systems, and machine learning, I turn complex problems into practical solutions.
-
+I combine strong technical expertise in software, embedded systems, and machine learning with practical experience turning complex problems into real-world solutions. I excel at connecting technology, people, and processes to deliver reliable and impactful results.
 I thrive both building systems and coordinating projects, connecting people, processes, and technology to deliver results. Curious, solution-focused, and collaborative, I’m motivated by opportunities where technical insight meets tangible outcomes.
 
 
